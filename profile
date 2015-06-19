@@ -1,2 +1,2 @@
 scale: 2
-command: java -jar -Xms{firstone} -Xmx{secondone} data/Main.jar data/ExcelFile 4 4 0 350
+command: java -jar -Xms256m -Xmx1024m data/Main.jar data/ExcelFile {num1} {num2} 0 350
